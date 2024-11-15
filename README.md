@@ -70,13 +70,13 @@ This project explores the application of graph-based analysis and machine learni
 |------------------------------------|--------------|------------------------|------------|--------------|
 | **Traditional AI Algorithms**      |              |                        |            |              |
 | Random Forest                      | 0.96         | 0.97 (Class 0)         | 0.97       | 0.97         |
-|                                    |              | 0.96 (Class 1)         |            |              |
+|                                    |              | 0.96 (Class 1)         | 0.96       | 0.96         |
 | Decision Tree                      | 0.91         | 0.94 (Class 0)         | 0.91       | 0.92         |
-|                                    |              | 0.88 (Class 1)         |            |              |
+|                                    |              | 0.88 (Class 1)         | 0.91       | 0.90         |
 | SVM                                | 0.98         | 0.97 (Class 0)         | 1.00       | 0.99         |
-|                                    |              | 1.00 (Class 1)         |            |              |
+|                                    |              | 1.00 (Class 1)         | 0.96       | 0.96         |
 | KNN                                | 0.94         | 0.92 (Class 0)         | 1.00       | 0.96         |
-|                                    |              | 1.00 (Class 1)         |            |              |
+|                                    |              | 1.00 (Class 1)         | 0.87       | 0.93         |
 
 ### Deep Learning Models with Graph Features
 - Incorporating graph-based features into deep learning models showed improved performance, particularly in **ANN** and **DNN**. However, the **GNN** model did not perform as well compared to other models, as shown in Table 2.
@@ -84,11 +84,11 @@ This project explores the application of graph-based analysis and machine learni
 | **Deep Learning Models with Graph Features** | **Accuracy** | **Precision**          | **Recall** | **F1-Score** |
 |---------------------------------------------|--------------|------------------------|------------|--------------|
 | ANN                                         | 0.97         | 0.98 (Class 0)         | 0.97       | 0.98         |
-|                                              |              | 0.95 (Class 1)         |            |              |
+|                                              |              | 0.95 (Class 1)         |  0.97     | 0.96         |
 | GNN                                         | 0.89         | 0.88 (Class 0)         | 0.95       | 0.92         |
-|                                              |              | 0.91 (Class 1)         |            |              |
+|                                              |              | 0.91 (Class 1)         | 0.79      | 0.85         |
 | DNN                                         | 0.96         | 0.96 (Class 0)         | 0.96       | 0.96         |
-|                                              |              | 0.96 (Class 1)         |            |              |
+|                                              |              | 0.96 (Class 1)         | 0.96       | 0.96        |
 
 - **SHAP/LIME** analysis offered valuable insights into the decision-making process of the DNN model. This helped in understanding which features influenced the predictions the most, providing a deeper interpretability layer for the model.
 
