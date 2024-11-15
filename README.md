@@ -5,6 +5,19 @@
 3. **Rajdeep Manik** (22BDS048)  
 4. **Vansh Lal Tolani** (22BDS061)
 
+## File Descriptions
+
+| **File Name**                | **Description** |
+|------------------------------|-----------------|
+| `Breast_Cancer.ipynb`        | Notebook containing the implementation of four traditional AI algorithms: Random Forest, Decision Tree, KNN, and SVM. |
+| `DS303_DNN.ipynb`            | Notebook with the Deep Neural Network (DNN) model, along with SHAP and LIME interpretability methods. |
+| `Final.csv`                  | Merged dataset that includes the original breast cancer data along with calculated graph features: Pagerank, Triangle Counting, and Connected Components. |
+| `Final_Project (1).ipynb`    | Notebook with the Artificial Neural Network (ANN) and Graph Neural Network (GNN) models applied on the dataset with graph features. |
+| `GraphX.ipynb`               | Notebook for graph analytics and processing using Apache Spark. This includes calculations for graph-based features like Pagerank and Triangle Counting. |
+| `Project_Report.pdf`         | Comprehensive project report detailing the methodology, experiments, and results. |
+| `Project_ppt.pptx`           | Presentation slide deck summarizing the project, suitable for project demonstrations and presentations. |
+| `breast_cancer.txt.edgelist` | Graph-based version of the merged dataset (`Final.csv`), structured as an edge list suitable for graph analytics. |
+
 # Integrating Graph Analytics with AI Algorithms for Enhanced Breast Cancer Classification and Interpretability 
 
 ## Project Overview
